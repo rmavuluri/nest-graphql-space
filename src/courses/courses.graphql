@@ -1,0 +1,10 @@
+type Course {
+  id: ID!
+  name: String!
+  brand: String!
+  flavors: [String!]!
+}
+type Query {
+  courses: [Course!]!
+  course(id: ID!): Course
+}

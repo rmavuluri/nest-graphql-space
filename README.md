@@ -71,3 +71,20 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+==============================================================================================================
+
+npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql apollo-server-express
+
+GraphQL fundamentals
+Introduction to Resolvers & Object Types
+Introduction to GraphQL Schemas, Types, Scalars
+GraphQL Queries | Mutations | Subscriptions
+GraphQL Unions | Interfaces
+Using GraphQL Variables
+Utilizing Field Resolvers
+Solving the dreaded "N+1 Problem"
+Batching & Caching with Dataloader
+
+npm i ts-morph
+npx ts-node src/generate-types
